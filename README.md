@@ -1,11 +1,11 @@
-# azure-terraform-[module_name]
+# azure-terraform-vnet-subnet
 
-Create a simple [module_full_name] in Azure
+Add a Subnet to an existing VNET in Azure
 
 ## Usage in Terraform 0.13
 ```hcl
 module "example" {
-  source  = "github.com/N3tLiX/modules//[module_folder]"
+  source  = "github.com/N3tLiX/modules//subnet"
 }
 ```
 
